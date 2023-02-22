@@ -7,6 +7,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 import NavBar from "./navbar.jsx";
 import Carousel from "./carousel.jsx";
 import Card from "./card.jsx";
+import Footer from "./footer.jsx";
 
 //create your first component
 const Home = () => {
@@ -27,7 +28,7 @@ const Home = () => {
 		</div>*/
 		<>
 		<NavBar/>
-		
+		<Carousel/>
 		<div class="container text-center">
 			<div class="row">
 				<div class="col"> 
@@ -46,6 +47,7 @@ const Home = () => {
 				</div>
 			</div>
         </div>  
+		<Footer/> 
 	
 		</>
 	);
