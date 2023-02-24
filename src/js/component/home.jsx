@@ -33,17 +33,23 @@ const Home = () => {
 			<div class="row">
 				<div class="col"> 
 				    <Card
-					    habraboton=""
+					    habraboton="Find Out More!"
 					/> 
 				</div>
 				<div class="col"> 
-				    <Card/> 
+				    <Card
+					    habraboton="Find Out More!"
+					/> 
 				</div>
 				<div class="col"> 
-				    <Card/> 
+				    <Card
+					    habraboton="Find Out More!"
+					/> 
 				</div>
 				<div class="col"> 
-				    <Card/> 
+				    <Card
+					    habraboton="Find Out More!"
+					/> 
 				</div>
 			</div>
         </div>  
