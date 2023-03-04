@@ -10,3 +10,9 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.card {
+    width: 18rem;
+}
+.card-img-top {
+    height: 220px;
+}
