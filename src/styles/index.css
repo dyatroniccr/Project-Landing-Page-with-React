@@ -11,8 +11,26 @@
 
 */
 .card {
-    width: 18rem;
+    width: 18rem;    
 }
 .card-img-top {
     height: 220px;
 }
+.d-block{
+    height: 720px;    
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+    .d-block{
+        height: 420px;
+    }
+    .card {
+        width: 22rem;
+        margin-top: 25px;        
+    }
+    .col {
+        display: flex;
+        justify-content: center;
+    }
+}
+  

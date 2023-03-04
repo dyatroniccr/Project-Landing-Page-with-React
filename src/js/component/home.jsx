@@ -4,7 +4,7 @@ import React from "react";
 import mana from "../../img/mana_rockgroup.jpg";
 import sodaStereo from "../../img/soda_stereo.jpg";
 import hombresG from "../../img/hombresg.jpg";
-import cadillacs from "../../img/lasfabulosos_cadillacs.jpg";
+import cadillacs from "../../img/losfabulosos_cadillacs.jpg";
 
 //Import other components
 import NavBar from "./navbar.jsx";
@@ -15,26 +15,13 @@ import Footer from "./footer.jsx";
 //create your first component
 const Home = () => {
 	return (
-		/*<div className="text-center">
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
-		</div>*/
+		
 		<>
 		<NavBar/>
-		
+				
 		<div class="container text-center">
 		    <Carousel/>
-			<div class="row d-flex justify-content-center">
+			<div class="row d-flex justify-content-center mt-4">
 				<div class="col"> 
 				    <Card
 					    imagen = {mana}		    
